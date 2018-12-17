@@ -83,7 +83,7 @@ protected:
 CircleDetector::Params::Params()
 {
   thresholdStep = 10;
-  minThreshold = 50;
+  minThreshold = 20;
   maxThreshold = 220;
   minRepeatability = 2;
   minDistBetweenCircles = 10;
@@ -93,8 +93,8 @@ CircleDetector::Params::Params()
   circleColor = 0;
 
   filterByArea = true;
-  minArea = 25;
-  maxArea = 5000;
+  minArea = 50;
+  maxArea = 100000;
 
   filterByCircularity = false;
   minCircularity = 0.8f;
